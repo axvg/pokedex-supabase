@@ -13,3 +13,9 @@ export interface ItemStat {
     name: string;
   };
 }
+
+export interface FavoriteBody {
+  data: IPokemon;
+  name: string;
+  user_id: string;
+}

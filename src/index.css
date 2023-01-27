@@ -41,9 +41,6 @@ ul {
   font-family: system-ui;
 }
 
-/*------------------*/
-/* Pokedex */
-/*------------------*/
 .pokedex {
   perspective: 1000px;
   position: relative;
@@ -246,9 +243,6 @@ ul {
   margin-right: 0.8em;
 }
 
-/*----------------------*/
-/* Pokedex Screen */
-/*---------------------*/
 .pokedex-screen-container {
   background: #b0b0b0;
   border-radius: 10px 10px 0 0;
@@ -303,9 +297,6 @@ ul {
   text-transform: capitalize;
 }
 
-/*---------------------*/
-/* Pokedex Form */
-/*---------------------*/
 .pokemon-form {
   display: grid;
   grid-template-columns: 1fr 50px;
@@ -344,10 +335,7 @@ ul {
   width: 40px;
   height: 40px;
   position: relative;
-  background: radial-gradient(
-    hsl(0, 100%, 70%),
-    hsl(0, 97%, 25%)
-  ); /* Standard syntax */
+  background: radial-gradient(hsl(0, 100%, 70%), hsl(0, 97%, 25%));
   text-shadow: 0 -1px 0 #c30707;
   color: white;
   border: solid 1px hsl(0, 100%, 20%);
@@ -364,17 +352,11 @@ ul {
 }
 
 .pokemon-btn:hover {
-  background: radial-gradient(
-    hsl(0, 100%, 70%),
-    hsl(0, 97%, 35%)
-  ); /* Standard syntax */
+  background: radial-gradient(hsl(0, 100%, 70%), hsl(0, 97%, 35%));
 }
 
 .pokemon-btn:active {
-  background: radial-gradient(
-    hsl(0, 100%, 80%),
-    hsl(0, 100%, 45%)
-  ); /* Standard syntax */
+  background: radial-gradient(hsl(0, 100%, 80%), hsl(0, 100%, 45%));
 
   top: 2px;
 
